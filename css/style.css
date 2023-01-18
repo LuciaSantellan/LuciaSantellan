@@ -12,7 +12,8 @@ body {
     line-height: 90px; }
   body .titulo {
     font-family: 'Roboto', sans-serif;
-    color: #ffccd5; }
+    color: #ffccd5;
+    padding: 20px; }
 
 .fondoGenerico {
   background-color: #fff0f3; }
