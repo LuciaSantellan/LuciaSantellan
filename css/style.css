@@ -37,12 +37,13 @@ main {
     flex-wrap: wrap; }
   main .caja_serv {
     width: 20%;
-    height: fit-content;
     padding: 10px;
     margin: 20px;
     border-radius: 5px;
     border: 3px solid;
-    border-color: #ffffff; }
+    border-color: white; }
+  main .parrafo {
+    color: #c9184a; }
   main .foto {
     width: 100%;
     transition-duration: 2s; }
