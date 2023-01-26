@@ -23,21 +23,24 @@ header {
   height: 10vh; }
 
 main {
-  width: 100%;
-  margin: 20px; }
+  width: 100%; }
   main .titulo__subt {
     font-family: 'Roboto', sans-serif;
     color: #c9184a; }
   main .caja_sub {
     padding: 5px;
     margin: 20px; }
-  main .caja {
+  main .section {
     flex-direction: row;
     display: flex;
-    flex-wrap: wrap; }
-  main .caja_serv {
-    width: 90%;
+    flex-wrap: wrap;
     align-items: center;
+    margin-left: 15%;
+    margin-right: 10%; }
+  main .caja_serv {
+    width: 500px;
+    height: 100%;
+    padding: 10px;
     margin: 20px;
     border-radius: 5px;
     border: 3px solid;

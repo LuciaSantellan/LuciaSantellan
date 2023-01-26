@@ -26,7 +26,6 @@ header{
 
 main{
     width: 100%;
-    margin: 20px;
     .titulo__subt{
         font-family: 'Roboto', sans-serif;
         color: #c9184a
@@ -35,14 +34,18 @@ main{
         padding: 5px;
         margin: 20px;
     }
-    .caja{
+    .section{
         flex-direction: row;
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        margin-left: 15%;
+        margin-right: 10%;
     }
     .caja_serv{
-        width: 90%;
-        align-items: center;
+        width: 500px;
+        height: 100%;
+        padding: 10px;
         margin: 20px;
         border-radius: 5px;
         border: 3px solid;
