@@ -39,8 +39,6 @@ main{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-left: 10%;
-        margin-right: 10%;
     }
     .caja_serv{
         width: 500px;
@@ -64,13 +62,6 @@ main{
         height: 300px;
         margin: 100px;
     }
-    .description{
-        font-size: 15px;
-        font-weight: 300;
-        font-style:normal ;
-        font-family: 'Roboto', sans-serif;
-        color: #16697a;
-    }
     .resetLista a:link,
 a:visited,
 a:active{
@@ -93,12 +84,12 @@ a:active{
 }
 footer{
         width: 100%;
-        height: 5vh;
+        height: 15vh;
+        background-color: #c9184a;
         .footer{
             padding: 10px;
             font-family: 'Roboto', sans-serif;
             color: #ffccd5;
-            background-color: #c9184a;
             text-decoration: none;
         }
     }
