@@ -46,8 +46,7 @@ main {
   main .parrafo {
     color: #c9184a; }
   main .foto {
-    width: 100%;
-    transition-duration: 2s; }
+    width: 100%; }
   main .foto__nosotros {
     width: 450px; }
   main .mapa {
@@ -85,6 +84,7 @@ main {
 
 footer {
   width: 100%;
+  height: auto;
   background-color: #c9184a;
   padding-top: 50px;
   color: #ffccd5; }
