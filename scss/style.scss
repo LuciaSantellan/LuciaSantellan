@@ -26,64 +26,7 @@ header{
     height: 10vh;
 }
 
-main{
-    width: 100%;
-    .titulo__subt{
-        font-family: 'Roboto', sans-serif;
-        color: #c9184a
-    }
-    .caja_sub{
-        padding: 5px;
-        margin: 20px;
-    }
-    .section{
-        flex-direction: row;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .caja_serv{
-        width: 400px;
-        height: 100%;
-        padding: 10px;
-        margin: 20px;
-        justify-content: center;
-        border-radius: 5px;
-        border: 3px solid;
-        border-color: white;
-    }
-    .parrafo{
-        font-family: 'Roboto', sans-serif;
-        color: #c9184a;}
-    .foto{
-        width: 100%;
-    }
-    .foto__nosotros{
-        width: 450px;
-    }
-    .nosotros{
-        text-align: center;
-    }
-    .mapa{
-        overflow: hidden;
-        padding-bottom: 30.25%;
-        position: relative;
-        height: 0;
-        z-index: -1;
-    }
-    .mapa iframe{
-        width: 70%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-    }
-    .infoUbicacion{
-        font-family: 'Roboto', sans-serif;
-        color: #c9184a;
-        text-align: center;
-        margin: 20px;
-    }
+
 
     .resetLista a:link,
 a:visited,
@@ -104,20 +47,10 @@ a:active{
         border-radius: 3px;
         padding: 5px 25px;
     }
-}
-footer{
-    width: 100%;
-    height: auto;
-    background-color: #c9184a;
-    padding-top: 50px;
-    color: #ffccd5;
-    .footer-col{
-        margin-bottom: 50px;
-    }
-    .derechos{
-        justify-content: end;
-    }
-    }
+
+@import "main";
+@import "footer";
+
 
 
 
