@@ -47,11 +47,14 @@ main {
     border: 3px solid;
     border-color: white; }
   main .parrafo {
+    font-family: 'Roboto', sans-serif;
     color: #c9184a; }
   main .foto {
     width: 100%; }
   main .foto__nosotros {
     width: 450px; }
+  main .nosotros {
+    text-align: center; }
   main .mapa {
     overflow: hidden;
     padding-bottom: 30.25%;

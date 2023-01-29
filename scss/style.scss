@@ -53,12 +53,17 @@ main{
         border: 3px solid;
         border-color: white;
     }
-    .parrafo{color: #c9184a;}
+    .parrafo{
+        font-family: 'Roboto', sans-serif;
+        color: #c9184a;}
     .foto{
         width: 100%;
     }
     .foto__nosotros{
         width: 450px;
+    }
+    .nosotros{
+        text-align: center;
     }
     .mapa{
         overflow: hidden;
