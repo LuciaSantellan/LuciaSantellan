@@ -41,12 +41,14 @@ main{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
     .caja_serv{
-        width: 500px;
+        width: 400px;
         height: 100%;
         padding: 10px;
         margin: 20px;
+        justify-content: center;
         border-radius: 5px;
         border: 3px solid;
         border-color: white;
@@ -67,7 +69,7 @@ main{
     }
     .mapa iframe{
         width: 70%;
-        margin-left: 15%;
+        margin: auto;
         display: flex;
         align-items: center;
     }
