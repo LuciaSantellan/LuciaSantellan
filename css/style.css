@@ -31,7 +31,8 @@ a:active {
 
 .formulario {
   width: 50%;
-  margin: auto; }
+  margin: auto;
+  padding: 20px; }
 
 .boton {
   font-size: 15px;
@@ -71,7 +72,7 @@ main {
     width: 100%; }
   main .foto__nosotros {
     width: 450px;
-    align-items: center; }
+    padding: 20px; }
   main .nosotros {
     text-align: center; }
   main .mapa {
