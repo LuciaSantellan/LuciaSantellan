@@ -46,6 +46,18 @@ main {
     color: #c9184a;
     text-align: center;
     margin: 20px; }
+  main .formulario {
+    width: 50%;
+    margin: auto;
+    padding: 20px; }
+  main .boton {
+    font-size: 15px;
+    width: auto;
+    background-color: #c9184a;
+    color: #ffccd5;
+    border: #ffccd5;
+    border-radius: 3px;
+    padding: 5px 25px; }
 
 footer {
   width: 100%;
@@ -88,17 +100,3 @@ a:visited,
 a:active {
   list-style-type: none;
   text-decoration: none; }
-
-.formulario {
-  width: 50%;
-  margin: auto;
-  padding: 20px; }
-
-.boton {
-  font-size: 15px;
-  width: auto;
-  background-color: #c9184a;
-  color: #ffccd5;
-  border: #ffccd5;
-  border-radius: 3px;
-  padding: 5px 25px; }
