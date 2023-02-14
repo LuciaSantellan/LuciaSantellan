@@ -1,12 +1,12 @@
 main{
     width: 100%;
     .titulo__subt{
-        font-family: 'Roboto', sans-serif;
-        color: #c9184a
+        font-family:$font;
+        color: $color-principal;
     }
     .caja_sub{
         padding: 5px;
-        margin: 20px;
+        margin: $margin;
     }
     .section{
         flex-direction: row;
@@ -18,15 +18,15 @@ main{
         width: 400px;
         height: 100%;
         padding: 10px;
-        margin: 20px;
+        margin: $margin;
         justify-content: center;
         border-radius: 5px;
         border: 3px solid;
-        border-color: white;
+        border-color: $border-color;
     }
     .parrafo{
-        font-family: 'Roboto', sans-serif;
-        color: #c9184a;}
+        font-family:$font;
+        color: $color-principal;}
     .foto{
         width: 100%;
     }
@@ -35,7 +35,7 @@ main{
         padding: 20px;
         }
     .nosotros{
-        text-align: center;
+        text-align: $text-aling;
     }
     .mapa{
         overflow: hidden;
@@ -51,10 +51,10 @@ main{
         align-items: center;
     }
     .infoUbicacion{
-        font-family: 'Roboto', sans-serif;
-        color: #c9184a;
-        text-align: center;
-        margin: 20px;
+        font-family: $font;
+        color: $color-principal;
+        text-align: $text-aling;
+        margin: $margin;
     }
     .formulario{
         width: 50%;
@@ -64,9 +64,9 @@ main{
     .boton{
         font-size: 15px;
         width: auto;
-        background-color: #c9184a;
-        color: #ffccd5;
-        border: #ffccd5;
+        background-color: $color-principal;
+        color: $color;
+        border: $color;
         border-radius: 3px;
         padding: 5px 25px;
     }

@@ -1,7 +1,7 @@
 main {
   width: 100%; }
   main .titulo__subt {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #c9184a; }
   main .caja_sub {
     padding: 5px;
@@ -21,7 +21,7 @@ main {
     border: 3px solid;
     border-color: white; }
   main .parrafo {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #c9184a; }
   main .foto {
     width: 100%; }
@@ -42,7 +42,7 @@ main {
     display: flex;
     align-items: center; }
   main .infoUbicacion {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #c9184a;
     text-align: center;
     margin: 20px; }
