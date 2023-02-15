@@ -2,7 +2,7 @@ main{
     width: 100%;
     .titulo__subt{
         font-family:$font;
-        color: $color-principal;
+        color: map-get($paletaColores, "bordeaux"); 
     }
     .caja_sub{
         padding: 5px;
@@ -22,11 +22,12 @@ main{
         justify-content: center;
         border-radius: 5px;
         border: 3px solid;
-        border-color: $border-color;
+        border-color: map-get($paletaColores, "blanco");
     }
     .parrafo{
         font-family:$font;
-        color: $color-principal;}
+        color: map-get($paletaColores, "bordeaux");
+    }
     .foto{
         width: 100%;
     }
@@ -52,7 +53,7 @@ main{
     }
     .infoUbicacion{
         font-family: $font;
-        color: $color-principal;
+        color: map-get($paletaColores, "bordeaux");
         text-align: $text-aling;
         margin: $margin;
     }
@@ -64,9 +65,9 @@ main{
     .boton{
         font-size: 15px;
         width: auto;
-        background-color: $color-principal;
-        color: $color;
-        border: $color;
+        background-color: map-get($paletaColores, "bordeaux");
+        color: map-get($paletaColores, "rosa");
+        border: map-get($paletaColores, "rosa");
         border-radius: 3px;
         padding: 5px 25px;
     }

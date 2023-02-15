@@ -9,7 +9,7 @@ body{
     #container{
             width: 100%;
             height: 250px;
-            background-color: $color-principal;
+            background-color: map-get($paletaColores, "bordeaux");
             text-align: $text-aling;
             line-height: 90px;}
     margin: 0;
@@ -23,7 +23,8 @@ body{
     }
 
 .fondoGenerico {
-    background-color: $background-color;}
+    background-color: map-get($paletaColores, "rosaClaro");
+}
 
 header{
     width: 100%;

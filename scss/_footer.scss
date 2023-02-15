@@ -1,9 +1,9 @@
 footer{
     width: 100%;
     height: auto;
-    background-color: $color-principal;
+    background-color: map-get($paletaColores, "bordeaux");
     padding-top: 50px;
-    color: $color;
+    color: map-get($paletaColores, "rosa");
     .footer-col{
         margin-bottom: 50px;
     }
